@@ -2,6 +2,7 @@ orgs:
   opendatahub-io:
     admins:
     - accorvin
+    - anishasthana
     - catrobson
     - cfchase
     - dchourasia
@@ -10,6 +11,7 @@ orgs:
     - LaVLaS
     - openshift-ci-robot
     - openshift-merge-robot
+    - riprasad
     - shgriffi
     - taneem-ibrahim
     default_repository_permission: read
@@ -19,6 +21,7 @@ orgs:
     members:
     - 4n4nd
     - uidoyen
+    - adnankhan666
     - abhijeet-dhumal
     - adelton
     - adrielparedes
@@ -29,7 +32,6 @@ orgs:
     - amadhusu
     - amsharma3
     - andrewballantyne
-    - anishasthana
     - asanzgom
     - astefanutti
     - atheo89
@@ -44,6 +46,7 @@ orgs:
     - codeflare-machine-account
     - DaoDaoNoCode
     - danielezonca
+    - davidesalerno  
     - devguyio
     - dfeddema
     - dgutride
@@ -83,6 +86,7 @@ orgs:
     - jeremyeder
     - jgarciao
     - jiripetrlik
+    - jlalbertson
     - Jooho
     - jstourac
     - judyobrienie
@@ -96,7 +100,6 @@ orgs:
     - lucferbux
     - lugi0
     - manaswinidas
-    - maroroman
     - Maxusmusti
     - MichaelClifford
     - mlassak
@@ -107,14 +110,14 @@ orgs:
     - Raghul-M
     - ralombar
     - rareddy
-    - r00ta
+    - rbcgh
     - rimolive
-    - riprasad
     - rkpattnaik780
     - RobGeada
     - romeokienzler
     - rpancham
     - ruivieira
+    - Sara4994
     - sesheta
     - simrandhaliw
     - shawkins
@@ -127,7 +130,6 @@ orgs:
     - tteofili
     - VaishnaviHire
     - VanillaSpoon
-    - VannTen
     - vconzola
     - VedantMahabaleshwarkar
     - VaniHaripriya
@@ -142,6 +144,7 @@ orgs:
     - ykaliuta
     - vaibhavjainwiz
     - winklerm
+    - z103cb
     - zdtsw
     members_can_create_repositories: false
     name: Open Data Hub
@@ -219,6 +222,7 @@ orgs:
         - winklerm
         privacy: closed
         repos:
+          codeflare-operator: maintain
           distributed-workloads: maintain
           kuberay: maintain
       Distributed Workloads Owners:
@@ -232,6 +236,7 @@ orgs:
         - sutaakar
         privacy: closed
         repos:
+          codeflare-operator: admin
           distributed-workloads: admin
           kuberay: admin
       Elyra Maintainers:
@@ -268,17 +273,20 @@ orgs:
         - taneem-ibrahim
         - Xaenalt
         members:
+        - davidesalerno 
         - dtrifiro
         - israel-hdez
         - rpancham
         - spolti
         - vaibhavjainwiz
         - VedantMahabaleshwarkar
+        - z103cb
         privacy: closed
         repos:
           caikit: admin
           caikit-nlp: admin
           caikit-tgis-backend: admin
+          caikit-tgis-client: admin
           caikit-tgis-serving: admin
           kserve: admin
           modelmesh: admin
@@ -292,7 +300,6 @@ orgs:
       Notebook Maintainers:
         description: Maintainers of the notebook controller and all connected repos
         maintainers:
-        - LaVLaS
         - harshad16
         - atheo89
         - adrielparedes
@@ -304,7 +311,6 @@ orgs:
         description: Members with triage access to repos maintained by the Notebook
           contributors
         maintainers:
-        - LaVLaS
         - harshad16
         - adrielparedes
         members:
@@ -343,6 +349,7 @@ orgs:
         - jkoehler-redhat
         members:
         - anishasthana
+        - jedemo
         - jenny-s51
         privacy: closed
         repos:
@@ -355,6 +362,7 @@ orgs:
         - dgutride
         - LaVLaS
         members:
+        - adnankhan666
         - DaoDaoNoCode
         - dpanshug
         - Gkrumbach07
@@ -565,6 +573,7 @@ orgs:
           - israel-hdez
           - jackdelahunt  
           - piotrpdev
+          - Sara4994
           - steventobin
         privacy: closed
         repos:
@@ -577,3 +586,9 @@ orgs:
         privacy: closed
         repos:
           ai-edge: admin
+      CodeFlare-NASA-Cluster-Access:
+        description: Users with access to the OSD cluster deployed for collaboration with NASA on CodeFlare Distributed Workloads work
+        members:
+          - harshad16
+          - rbcgh
+        privacy: closed
